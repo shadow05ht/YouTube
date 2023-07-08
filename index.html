@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            background-color: black;
+        }
+
+        .container {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            background-color: black;
+        }
+
+        .one {
+            height: 30px;
+            width: 30px;
+            background-image: url(google\ apps.png);
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-color: #fff;
+            margin-top: 20px;
+        }
+
+        .two {
+            height: 100px;
+            width: 200px;
+            background-image: url(YouTube.jpg);
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+            margin-top: 20px;
+            margin-left: 10px;
+        }
+
+        .search {
+            height: 23px;
+            width: 50%;
+            font-size: 10px;
+            display: flex;
+            margin-top: 30px;
+            border-radius: 30px;
+            border: 10px solid white;
+            margin-left: 120px;
+            background-color: white;
+        }
+
+        .search input {
+            font-size: 30px;
+            border: 0;
+            outline: none;
+            background-color: white;
+        }
+
+        .three {
+            height: 50px;
+            width: 50px;
+            background-image: url(axtarış.png);
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+            margin-left: -40px;
+            margin-top: 30px;
+            border-radius: 20px;
+            border: 2px solid;
+        }
+
+        .four {
+            width: 80px;
+            height: 80px;
+            background-color: white;
+            background-image: url(T.jpg);
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+            border-radius: 50px;
+            position: relative;
+            margin-left: 380px;
+            margin-top: 15px;
+
+        }
+
+        .vid {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            height: 700px;
+            width: 600px;
+            margin-left: 50px;
+
+        }
+
+        .video1 {
+            border-radius: 15px;
+            margin-top: 20px;
+            margin-left: 10px;
+            background-image: url(nerv.jpg);
+            background-size: cover;
+            background-position: center;
+            height: 210px;
+            width: 380px;
+
+        }
+
+        .video2 {
+            border-radius: 15px;
+            margin-top: 20px;
+            margin-left: 10px;
+            background-image: url(qarabag.jpg);
+            background-size: cover;
+            background-position: center;
+            height: 210px;
+            width: 380px;
+
+        }
+
+        .video3 {
+            border-radius: 15px;
+            margin-top: 20px;
+            margin-left: 10px;
+            background-image: url(excel.jpg);
+            background-size: cover;
+            background-position: center;
+            height: 210px;
+            width: 380px;
+
+        }
+
+        .video4 {
+            border-radius: 15px;
+            margin-top: 20px;
+            margin-left: 10px;
+            background-image: url(sql\ and\ veritabani.jpg);
+            background-size: cover;
+            background-position: center;
+            height: 210px;
+            width: 380px;
+
+        }
+
+        .video5 {
+            border-radius: 15px;
+            margin-top: 20px;
+            margin-left: 10px;
+            background-image: url(c++.jpg);
+            background-size: cover;
+            background-position: center;
+            height: 210px;
+            width: 380px;
+
+        }
+
+        .video6 {
+            border-radius: 15px;
+            margin-top: 20px;
+            margin-left: 10px;
+            background-image: url(ADNSU.jpg);
+            background-size: cover;
+            background-position: center;
+            height: 210px;
+            width: 380px;
+
+        }
+
+        .video7 {
+            border-radius: 15px;
+            margin-top: 20px;
+            margin-left: 10px;
+            background-image: url(ing.jpg);
+            background-size: cover;
+            background-position: center;
+            height: 210px;
+            width: 380px;
+
+        }
+
+        .video8 {
+            border-radius: 15px;
+            margin-top: 20px;
+            margin-left: 10px;
+            background-image: url(satranc.jpg);
+            background-size: cover;
+            background-position: center;
+            height: 210px;
+            width: 380px;
+
+        }
+
+
+        h3 {
+            color: white;
+            height: 100px;
+            width: 410px;
+            margin-left: 10px;
+            margin-top: 5px;
+        }
+
+        ::selection {
+            color: gold;
+            background-color: black;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="one"></div>
+        <div class="two"></div>
+        <form action="https://www.youtube.com/search" method="get" class="search">
+            <input type="text" placeholder="Search">
+        </form>
+        <div class="three"></div>
+        <div class="four"></div>
+    </div>
+    <br>
+    <hr>
+    <div class="vid">
+        <a href="https://www.youtube.com/watch?v=gCV5Q6j4tvQ">
+            <div class="video1"></div>
+            <h3>Nerv - "Low" (Official Music Video)</h3>
+        </a>
+        <a href="https://www.youtube.com/watch?v=OU6b4liOUmw">
+            <div class="video2"></div>
+            <h3>Qarabağ 5-1 Lex Poznan (Karabakh 5-1 Lech Poznan) @SportMixAZ
+            </h3>
+        </a>
+        <a href="https://www.youtube.com/watch?v=sJGWZli4qLA">
+            <div class="video3"></div>
+            <h3>Excel'de Tek Tık Dashboard Oluşturmak</h3>
+        </a>
+        <a href="https://www.youtube.com/watch?v=URskGHtvFlE">
+            <div class="video4"></div>
+            <h3>1 Videoda Veritabanı Tasarımı , Normalizasyon ve SQL ( SQL Dersleri )
+            </h3>
+        </a>
+        <a href="https://www.youtube.com/watch?v=OzDZ15oxMUo">
+            <div class="video5"></div>
+            <h3>C / C++ Programlama Dersleri : Algoritma Örnekleri : Metni Ters Çevirme Algoritması #programlama
+            </h3>
+        </a>
+        <a href="https://www.youtube.com/watch?v=eV6Xv2dOE_Y">
+            <div class="video6"></div>
+            <h3>ADNSU-da niyə oxumalıyıq?- Media Turk TV</h3>
+        </a>
+        <a href="https://www.youtube.com/watch?v=PDaSEfd-eK0">
+            <div class="video7"></div>
+            <h3>İNGİLİZCE KONUŞMAK İÇİN TEMEL BİLGİLER, İNGİLİZCE ZOR DEĞİLDİR. - DERS 16
+            </h3>
+        </a>
+        <a href="https://www.youtube.com/watch?v=RuvAXlCQcBU">
+            <div class="video8"></div>
+            <h3>CARLSEN SATRANÇ TARİHİNE GEÇEN BİR VEZİR FEDASI YAPIYOR
+            </h3>
+        </a>
+
+</body>
+
+</html>
